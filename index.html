@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UFT-8">
+    <meta name = "UIUXHW" content="width-device-width, initial-scale-1.0">
+    
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Brightstone Ragdoll Cattery</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Brightstone Ragdoll Cattery</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About Ragdoll
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Ragdoll History</a></li>
+                      <li><a class="dropdown-item" href="#">Ragdoll Facts</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Brightstone Cattery
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Cattery</a></li>
+                      <li><a class="dropdown-item" href="#">Show Stoppers</a></li>
+                      <li><a class="dropdown-item" href="#">Available Kittens</a></li>
+                      <li><a class="dropdown-item" href="#">Retired Adults</a></li>
+                      <li><a class="dropdown-item" href="#">Cat Foods</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Gallery
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Kitten Pictures</a></li>
+                    <li><a class="dropdown-item" href="#">Kittens to Cats</a></li>
+                    <li><a class="dropdown-item" href="#">Shining Stars</a></li>
+                    <li><a class="dropdown-item" href="#">Happy Families</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lineage
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">DE LA MER LINE</a></li>
+                      <li><a class="dropdown-item" href="#">DE LA MER PART DE LINE</a></li>
+                      <li><a class="dropdown-item" href="#">CELTIC LINE</a></li>
+                      <li><a class="dropdown-item" href="#">ANGEL LINE</a></li>
+                    </ul>
+                  </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" alt="btn"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" alt="btn"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" alt="btn"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="image/cover1.png" class="d-block w-100" alt="cover">
+            <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+              <h1>Welcome to Brightstone Ragdoll Cattery</h1>
+              <h3>Where Ragdoll Cats Reign Supreme!!</h3>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="image/cover2.png" class="d-block w-100" alt="cover">
+            <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+              <h1>Meow~</h1>
+              <h3>Raised with love and pride.</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/cover3.png" class="d-block w-100" alt="cover">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" alt="btn">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" alt="btn">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <h3 class = "text-start mt-5">Brightstone Ragdoll Cattery</h3>
+        <img src="image/p1.png" class = "rounded float-end mt-3"  style="width: 22rem; height: 18rem" alt="cat picture">
+        <p class = "mt-3 fs-5">Brightstone Ragdoll Cattery is a small Ragdoll Cattery located in the heart of Nassau County on Long Island in New York. Just thirty minutes from New York City, Brooklyn, Queens, Manhattan, Staten Island and the Bronx.</p>
+        <p class = "mt-3 fs-5">We raise big, beautiful Ragdolls in our home and we love everything about them.  From their sweet dispositions, deep throaty purrs, non matting soft and silky fur and gorgeous colors of seal and blue.  All our cats are homebred from healthy genetic lines resulting in absolutely gorgeous, large, and breathtaking cats. </p>
+        </p>    
+    </div>
+
+    <div class="container">
+      <h3 class = "text-start mt-5">Rasied with Pride</h3>
+      <img src="image/p2.png" class = "rounded float-start mt-3"  style="width: 22rem; height: 18rem" alt="cat picture">
+      <p class = "mt-3 fs-5">All my Ragdoll Cats and Ragdoll Kittens are raised as part of my family, with love and pride, as well as underfoot. I even have built my Ragdolls their own room filled with all the cat toys and equipment they could ever want or need. I make sure that each and every one of my Ragdolls receives individual attention and special care. I enjoy my one on one time with them while I groom them, play catch, rub their bellies and let them sleep in my lap while I watch TV. My little Ragdoll Kittens are a pleasure to watch as they grow and play; especially as they learn to climb their scratching post and cat trees.
+      </p>    
+    </div>
+    
+    <div class="container">
+      <h3 class = "text-start mt-5">Why Brightstone</h3>
+      <img src="image/p3.png" class = "rounded float-end mt-3 me-5"  style="width: 22rem; height: 18rem" alt="cat picture">
+      <p class = "mt-3 fs-5">We have been a TICA and CFA Cattery of Excellence since 2003! I choose to become a Ragdoll breeder as well as Ragdoll showman because I truly love the Ragdoll breed. I started my Ragdoll Cattery with the knowledge that I wanted to show and breed healthy and solid lines of Ragdolls. My Ragdolls exhibit the larger size and personality that is the trade mark of Ragdoll Cats.  My first Ragdoll Rhamee Blue, an alter,  reached 20 pounds at maturity.
+      </p>    
+      <p class = "mt-3 fs-5">My Ragdoll breeding program is now sired by my own Regional Winner and Quadruple Grand Champion Brightstone Colton Jaxon Delamer the son of my own Outstanding Sire Regional Winner and Supreme Grand Champion Brightstone Baron Markee Delamer.  These amazing boys have allowed me to reach my Ragdoll breeding goal of creating large Champion Ragdoll Cats. Additionally, I am focusing on breeding for genetic health and personality to ensure that the Ragdoll breed is kept within the TICA and CFA Association standards.
+      </p> 
+    </div>
+
+    
+    <div class = "container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mt-5">
+          <div class="card">
+              <img src="image/p4.png" class="card-img-top" alt="cat picture">
+                <div class="card-body">
+                  <h5 class="card-title">Brightstone Colton Jaxon Delamer</h5>
+                  <p class="card-text">Jaxon has produced several amazing show cats. Stayed tuned as he creates a second ragdoll dynasty! Two of his newest offspring being shown won grand Championship.</p>
+                  <button type="button" class="btn btn-outline-primary" alt="btn">Offspring</button> 
+                  <button type="button" class="btn btn-outline-primary" alt="btn">Championship</button> 
+                </div>
+            </div>  
+        </div>
+        
+        <div class="col-lg-6 col-md-12 mt-5">
+          <div class="card">
+            <img src="image/p5.png" class="card-img-top" alt="cat picture">
+              <div class="card-body">
+                <h5 class="card-title">Brightstone Baron Markee Delamer</h5>
+                <p class="card-text">Outstanding Sire is achieved when a male cat creates ten offspring that reach grand championship or higher award status. Markee is quailified for the outstanding sires.</p>
+                <button type="button" class="btn btn-outline-primary" alt="btn">Offspring</button> 
+                <button type="button" class="btn btn-outline-primary" alt="btn">Championship</button> 
+              </div>
+          </div>
+        </div>
+      </div>
+     </div> 
+
+    <div class="container">
+      <h3 class = "mt-5 text-start">Brightstone Family</h3>
+      <img src="image/p6.png" class = "rounded float-start mt-3 ms-5"  style="width: 22rem; height: 18rem" alt="cat picture">
+      <p class = "mt-3 fs-5">My Ragdoll family can be found all over Long Island in Nassau County, Suffolk County, Manhattan, Queens, Staten Island, Brooklyn, Connecticut, Delaware, Maryland, Massachusetts, New Jersey, New York, North Carolina, Ohio, Pennsylvania, Rhode Island, Mississippi, Florida, and Virginia.   We are also found internationally in Europe, Belgium, Latvia, Russia, China, and many other international countries. We do not ship pets but prefer a face to face choosing of your new family member. We always look forward to meeting you when you first visit to choose your kitten and when you come to pick up your new purring bundle of joy!
+      </p>    
+      <p class = "text-center fs-4">So Why Don't You Become A Member Of The Brightstone Ragdoll Family!
+      </p> 
+    </div>
+
+    <div class="container mt-5">
+        <h3 class = "text-start">Cat Adoption Application Processes</h3>
+          <div class="row mt-3">
+              <div class="col-xl-4 col-lg-6 col-md-12 bg-info p-2" style="--bs-bg-opacity: .05;">
+                <h5>Step 1:</h5> 
+                <p class="fs-5">Email (Brightstonerags8@aol.com) or Call (516 599-1708) David Nudleman if you are interested in reserving one of our kittens.
+              </div>
+              <div class="col-xl-4 col-lg-6 col-md-12 bg-info p-2" style="--bs-bg-opacity: .1;">
+                <h5>Step 2:</h5>  
+                <p class="fs-5">Go through an interview procedure.</p>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-md-12 bg-info p-2" style="--bs-bg-opacity: .05;">
+                <h5>Step 3:</h5> 
+                <p class="fs-5">A $250 nonrefundable deposit is required. It will either hold one of the available kittens or put you on our waiting list and allow you to get the next available kitten of your choice.</p>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-md-12 bg-info p-2" style="--bs-bg-opacity: .1;">
+                <h5>Step 4:</h5> 
+                <p class="fs-5">Select kittens you're interesting in adopting and schedule a time to meet them in person.</p>
+                <button type="button" class="btn btn-outline-primary" alt="btn">See available kittens</button>  
+              </div>
+              <div class="col-xl-4 col-lg-6 col-md-12 bg-info p-2" style="--bs-bg-opacity: .05;">
+                <h5>Step 5:</h5> 
+                <p class="fs-5">Go through this cat adoption checklist for essential cat supplies and prepare for their arrival.</p>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-md-12 bg-info p-2" style="--bs-bg-opacity: .1;">
+                <h5>Step 6:</h5> 
+                <p class="fs-5">Picking up your kittens. All kittens will be ready to go to their new homes between the ages of 12-14 weeks of age.</p>
+              </div> 
+          </div>
+    </div>
+
+    <div class="container">
+      <h3 class = "mt-5 text-start">Organizations</h3>
+      <p class="fs-5">Brightstone Ragdolls is a member of the following organizations:</p>
+    </div>
+
+    <div class="container text-center">
+
+        <div class="row mt-1 justify-content-md-center">
+          <div class="col-xl-6">
+            <h5>The International Cat Association (TICA)</h5> 
+          </div>
+          <div class="col-xl-6">
+            <h5>Cat Fanciers Association (CFA) Westchester Feline Club</h5> 
+          </div>
+          <div class="col-md-12 col-lg-3 col-xl-4 col-xxl 2">
+            <h5>Coastal City Cat Club</h5> 
+          </div>
+          <div class="col-md-12 col-lg-3 col-xl-4 col-xxl 2">
+            <h5>Cats Ahoy Cat Club</h5> 
+          </div>
+          <div class="col-md-12 col-lg-3 col-xl-4 col-xxl 2">
+            <h5>Skyway Cat Club</h5> 
+          </div>
+          <div class="col-md-12 col-lg-3 col-xl-4 col-xxl 2">
+            <h5>Mystical Moon Cats</h5>  
+          </div>
+          <div class="col-md-12 col-lg-3 col-xl-4 col-xxl 2">
+            <h5>Bikers Cat Club</h5> 
+          </div>
+          <div class="col-md-12 col-lg-3 col-xl-4 col-xxl 2">
+            <h5>Project Meow</h5>  
+          </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-dark">
+      <div class="container">
+        <span class="text-muted"> Website and contents copywrite by Brightstone. </span>
+      </div>
+    </footer>
+
+
+</html>
